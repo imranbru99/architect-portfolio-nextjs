@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ Premium Architectural Portfolio & Engineering Journal
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+### 🌐 Live Production Site: [https://imrandev.bd/](https://imrandev.bd/)
 
+This is the high-performance frontend for the personal brand and technical journal of **Imran Ahmed**. Architected for speed, SEO authority, and elite visual fidelity, this repository showcases a modern implementation of Next.js 15 and a "Premium Glassmorphism" design system.
+
+---
+
+## 🏛️ Engineering Philosophy
+
+As a **Senior Lead Architect with 9+ years of experience**, this project demonstrates a commitment to:
+* **Performance:** 100/100 Core Web Vitals targets.
+* **Scalability:** Headless architecture ready for high-concurrency enterprise use.
+* **Security:** Hardened frontend paths and secure API orchestration.
+
+---
+
+## ✨ Key Features
+
+### 🚀 High-Performance Engine
+* **Next.js 15 App Router:** Fully utilizes React Server Components (RSC) to minimize client-side JavaScript.
+* **ISR (Incremental Static Regeneration):** Optimized caching strategy for blog posts and portfolio items.
+* **Turbopack Optimized:** Blazing fast build and development cycles.
+
+### 🔍 Automated SEO Orchestration
+* **Dynamic Sitemap:** Automated `sitemap.xml` generation for all static and dynamic routes.
+* **Metadata API:** Specialized OpenGraph and Meta descriptions for every unique technical entry.
+* **Robots.txt:** Intelligent crawler management for enterprise SEO authority.
+
+### 🎨 Premium UI/UX
+* **Glassmorphism Aesthetic:** A deep-space slate theme with subtle glows and glass-like borders.
+* **Framer Motion:** High-fidelity, hardware-accelerated animations.
+* **Responsive Architecture:** Pixel-perfect layout from mobile to 4K displays.
+
+### 🛠️ Resilient API Layer
+* **Retry Logic:** Custom API wrapper with exponential backoff for mission-critical data fetching.
+* **Type Safety:** Strict TypeScript interfaces for all data models (Blog, Portfolio, etc.).
+
+---
+
+## 🛠️ Technical Stack
+
+| Category | Technology |
+| :--- | :--- |
+| **Framework** | Next.js 15 (App Router) |
+| **Language** | TypeScript (Strict Mode) |
+| **Styling** | Tailwind CSS + Shadcn/UI |
+| **Icons** | Lucide React + FontAwesome 6 |
+| **Animations** | Framer Motion |
+| **Deployment** | Ubuntu VPS via PM2 & Nginx |
+
+---
+
+## 🚀 Deployment & Development
+
+### 1. Requirements
+* **Node.js:** v20.9.0 or higher (Required for Next.js 15)
+* **Process Manager:** PM2 (Recommended for VPS)
+
+### 2. Local Setup
 ```bash
+# Clone the repo
+git clone [https://github.com/imranbru99/architect-portfolio-nextjs.git](https://github.com/imranbru99/architect-portfolio-nextjs.git)
+
+# Install dependencies
+npm install
+
+# Run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Production Build (VPS)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Generate optimized build
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Start with PM2
+pm2 start npm --name "imran-portfolio" -- start
 
-## Learn More
+🤝 Support & Consultation
+🚀 NEED A FIX? CONTACT ME:
 
-To learn more about Next.js, take a look at the following resources:
+🌐 Portfolio: https://imrandev.bd
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📧 Email: me@imrandev.bd
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📞 WhatsApp: +8801576918420
